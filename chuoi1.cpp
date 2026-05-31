@@ -4,6 +4,7 @@
 //hay không. 
 using namespace std;
 bool chuoi(string s){
+    if(s.size() == 0) return false;
     for(int i = 0;i <= s.size();i++){
         if('a' <= s[i] && s[i] <= 'z'){ // chúng ta cần là so sánh kí tự chứ không phải là so sánh số
             return true; //nếu thỏa mãn điều kiện thì đúng
