@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 //Viết chương trình nhập vào một chuỗi, in ra chuỗi đó viết hoa. 
 using namespace std;
 string chuoi(string s){
